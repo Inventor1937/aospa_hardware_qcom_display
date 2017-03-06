@@ -37,6 +37,8 @@
 
 namespace sdm {
 
+DisplayError SetCSC(const MetaData_t *meta_data, ColorMetaData *color_metadata);
+
 enum GeometryChanges {
   kNone         = 0x000,
   kBlendMode    = 0x001,
